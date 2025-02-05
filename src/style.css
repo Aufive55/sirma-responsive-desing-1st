@@ -19,8 +19,12 @@ body {
 
 .header-section {
     background-color: var(--primary-color);
-    padding: 35px 0 35px;
+    padding: 35px 100px 35px;
     color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 
 }
 
@@ -30,4 +34,18 @@ body {
 
 .logo {
     font-size: 40px;
+}
+.nav-container {
+    width: 390px;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: inherit
 }
