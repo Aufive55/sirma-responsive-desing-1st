@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #74C69D;
+    --secondary-color: #FFF;
+    --dark-color: #212529;
+    --primary-color-100: var(--primary-color);
+    --primary-color-75: #74c69dc0;
+    --secondary-color-100: var(--secondary-color);
+    --secondary-color-75: #FFFFFFc0;
+    --dark-color-100: var(--dark-color);
+
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 125%;
+}
+body {
+    margin: 0;
+}
