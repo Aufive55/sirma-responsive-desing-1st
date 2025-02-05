@@ -41,17 +41,29 @@ h1 {
     font-size: 1.25rem;
 }
 
-.header-section {
+.header-section,
+.footer-section {
+    padding: 35px 100px 38px;
     background-color: var(--primary-color);
-    padding: 35px 100px 35px;
-    color: var(--secondary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin-bottom: 30px;
+
 
 }
 
+.header-section-container,
+.footer-section-container {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
 
 .logo {
     font-size: 40px;
@@ -75,6 +87,7 @@ h1 {
 .content-header-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 82px;
 }
 
 .content-header-container {
@@ -84,11 +97,12 @@ h1 {
 
 .portfolio-section {
     width: 100%;
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
     /* place-items: center; */
     gap: 55px;
+    margin-bottom: 100px;
 
 }
