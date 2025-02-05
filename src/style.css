@@ -12,6 +12,22 @@
     font-size: 16px;
     line-height: 125%;
 }
+
 body {
     margin: 0;
+}
+
+.header-section {
+    background-color: var(--primary-color);
+    padding: 35px 0 35px;
+    color: var(--secondary-color);
+
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+}
+
+.logo {
+    font-size: 40px;
 }
