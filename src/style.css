@@ -17,6 +17,11 @@ body {
     margin: 0;
 }
 
+.site-content {
+    width: 1180px;
+    margin: auto;
+}
+
 
 h1 {
     font-family: 'Crimson Text';
@@ -35,6 +40,7 @@ h1 {
 .sub-heading {
     font-size: 1.25rem;
 }
+
 .header-section {
     background-color: var(--primary-color);
     padding: 35px 100px 35px;
@@ -66,12 +72,23 @@ h1 {
     color: inherit
 }
 
-.content-header-section{
-display: flex;
-justify-content: center;
+.content-header-section {
+    display: flex;
+    justify-content: center;
 }
 
 .content-header-container {
     text-align: center;
     width: 410px;
+}
+
+.portfolio-section {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    /* place-items: center; */
+    gap: 55px;
+
 }
