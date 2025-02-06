@@ -45,9 +45,10 @@ h1 {
 .footer-section {
     padding: 35px 0px 38px;
     background-color: var(--primary-color);
+    
+}
+.header-section {
     margin-bottom: 30px;
-
-
 }
 
 .header-section-container,
