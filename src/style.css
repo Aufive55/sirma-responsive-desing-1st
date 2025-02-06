@@ -43,7 +43,7 @@ h1 {
 
 .header-section,
 .footer-section {
-    padding: 35px 100px 38px;
+    padding: 35px 0px 38px;
     background-color: var(--primary-color);
     margin-bottom: 30px;
 
@@ -104,5 +104,49 @@ h1 {
     /* place-items: center; */
     gap: 55px;
     margin-bottom: 100px;
+    justify-items: center;
 
+}
+
+article img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .site-content {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .site-content {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-content {
+        width: 500px;
+    }
+
+    .portfolio-section {
+        grid-template-columns: 1fr;
+    }
+
+    .header-section-container nav {
+        display: none;
+    }
+    .footer-section-container {
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 568px) {
+    .site-content {
+        width: 320px;
+    }
+    article {
+        width: 335px;
+    }
 }
