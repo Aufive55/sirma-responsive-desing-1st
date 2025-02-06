@@ -82,7 +82,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-.burger-menu{
+.burger-menu {
     display: none;
 
 }
@@ -115,7 +115,6 @@ h1 {
 
 .portfolio-section {
     width: 100%;
-
     display: grid;
     grid-template-columns: 570fr 555fr;
     gap: 55px;
@@ -156,17 +155,22 @@ article img {
         display: none;
     }
 
-    .burger-menu{
+    .burger-menu {
         display: inline;
     }
 
     .logo-container {
         width: 130px;
-        
-    } 
+
+    }
+
     .logo-container svg {
         width: 45px;
 
+    }
+
+    .content-header-section {
+        margin-bottom: 45px;
     }
 
     .logo {
@@ -175,8 +179,13 @@ article img {
 
     .portfolio-section {
         grid-template-columns: 1fr;
+        row-gap: 55px;
+        margin-bottom: 30px;
     }
 
+    .more-section{
+        margin-bottom: 30px;
+    }
 
     .footer-section-container {
         flex-direction: column;
